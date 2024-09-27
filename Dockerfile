@@ -1,5 +1,5 @@
 # Stage 1: Build stage with secret to download the model
-FROM python:3.11-slim as builder
+FROM python:3.12-slim as builder
 
 WORKDIR /app
 
